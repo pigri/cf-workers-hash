@@ -1,0 +1,9 @@
+name = "cf-worker-hash-example"
+main = "src/index.ts"
+compatibility_date = "2024-03-04"
+compatibility_flags = [ "nodejs_compat", "nodejs_als"]
+workers_dev = true
+#logpush = true
+
+[vars]
+ENVIRONMENT = "dev"

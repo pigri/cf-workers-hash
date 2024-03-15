@@ -17,7 +17,7 @@
     "checkJs": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "WebWorker"],
     "rootDirs": ["./src", "./types"],
     "types": ["@cloudflare/workers-types","jest", "node"],
     "esModuleInterop": true

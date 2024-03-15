@@ -1,8 +1,3 @@
-let crypto: any;
-if (process.env.NODE_ENV === 'test') {
-  crypto = require('crypto');
-}
-
 export async function hasher (input: string, hashType: string): Promise<string> {
   const encoder = new TextEncoder();
   const data = encoder.encode(input);

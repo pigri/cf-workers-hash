@@ -1,4 +1,4 @@
-import { hasher } from '../../src';
+import { hasher } from '../../dist';
 
 export default {
   async fetch(request: Request) {

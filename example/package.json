@@ -1,5 +1,5 @@
 {
-  "name": "cf-n8n-proxy",
+  "name": "cf-worker-hash-example",
   "scripts": {
     "dev": "wrangler dev"
   },
@@ -14,7 +14,6 @@
     "wrangler": "3.34.2"
   },
   "dependencies": {
-    "cf-workers-hash": "github:pigri/cf-workers-hash",
     "itty-fetcher": "0.9.4",
     "itty-router": "4.2.1"
   },

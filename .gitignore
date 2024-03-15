@@ -128,7 +128,6 @@ dist
 .pnp.*
 
 # cloudflare
-wrangler.toml
 .wrangler
 .idea
 lib/
