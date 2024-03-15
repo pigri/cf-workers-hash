@@ -1,0 +1,41 @@
+{
+  "name": "cf-workers-hash",
+  "version": "0.0.1",
+  "description": "A simple hash function for Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigri/cf-workers-hash.git"
+  },
+  "keywords": [
+    "hasher",
+    "cloudflare",
+    "hash",
+    "crypto",
+    "cf"
+  ],
+  "devDependencies": {
+    "@types/node": "20.11.28",
+    "@cloudflare/workers-types": "4.20240314.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "prettier": "3.2.5",
+    "typescript": "5.4.2",
+    "wrangler": "3.34.2",
+    "pnpm": "latest"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "author": "David Papp <david@papp.ai>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pigri/cf-workers-hash/issues"
+  },
+  "homepage": "https://github.com/pigri/cf-workers-hash#readme"
+}
