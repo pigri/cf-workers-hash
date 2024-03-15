@@ -132,3 +132,8 @@ wrangler.toml
 .wrangler
 .idea
 lib/
+
+# Build files
+/dist
+example/node_modules
+example/.wrangler

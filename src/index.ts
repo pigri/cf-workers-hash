@@ -1,4 +1,9 @@
-const hasher = async (input: string, hashType: string): Promise<string> => {
+let crypto: any;
+if (process.env.NODE_ENV === 'test') {
+  crypto = require('crypto');
+}
+
+export async function hasher (input: string, hashType: string): Promise<string> {
   const encoder = new TextEncoder();
   const data = encoder.encode(input);
   const hashBuffer = await crypto.subtle.digest(hashType, data);
@@ -6,11 +11,4 @@ const hasher = async (input: string, hashType: string): Promise<string> => {
   return hashArray
     .map((b) => b.toString(16).padStart(2, '0'))
     .join('');
-};
-
-declare module 'cf-workers-hash' {
-  function hasher(input: string, hashType: string): Promise<string>;
-  export = hasher;
 }
-
-module.exports = hasher;
