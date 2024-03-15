@@ -1,10 +1,7 @@
 # Hash function for Cloudflare Workers
 
-## How to use?
-
-Check the `example` directory.
-
-### Supported hash functions
+### What is this?
+This is a simple hash function library for Cloudflare Workers. It supports the following hash functions:
 - SHA-1
 - SHA-256
 - SHA-384
@@ -23,6 +20,15 @@ Check the `example` directory.
 - KECCAK256
 - KECCAK384
 - KECCAK512
+
+### How to install?
+```
+npm install cf-workers-hash
+```
+
+### How to use?
+
+Check the `example` directory.
 
 ```
 import { sha1, sha256, sha384, sha512, base64, md5, xxhash64, xxhash32, bcrypt, bcryptCompare, whirlpool, sha3_512, sha3_224, sha3_256, sha3_384, keccak512, keccak384, keccak256, keccak224 } from 'cf-workers-hash';
