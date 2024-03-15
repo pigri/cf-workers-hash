@@ -1,5 +1,5 @@
 {
-  "name": "cf-worker-hash-example",
+  "name": "cf-workers-hash-example",
   "scripts": {
     "dev": "wrangler dev"
   },
@@ -12,10 +12,6 @@
     "prettier": "3.2.5",
     "typescript": "5.4.2",
     "wrangler": "3.34.2"
-  },
-  "dependencies": {
-    "itty-fetcher": "0.9.4",
-    "itty-router": "4.2.1"
   },
   "engines": {
     "node": ">=18",
