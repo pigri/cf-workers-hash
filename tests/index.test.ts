@@ -1,4 +1,30 @@
-import { sha1, sha256, sha384, sha512, base64, md5, xxhash64, xxhash32, bcrypt, bcryptCompare, whirlpool, sha3_512, sha3_224, sha3_256, sha3_384, keccak512, keccak384, keccak256, keccak224 } from '../dist';
+import {
+  sha1,
+  sha256,
+  sha384,
+  sha512,
+  base64,
+  md5,
+  xxhash64,
+  xxhash32,
+  bcrypt,
+  bcryptCompare,
+  whirlpool,
+  sha3_512,
+  sha3_224,
+  sha3_256,
+  sha3_384,
+  keccak512,
+  keccak384,
+  keccak256,
+  keccak224,
+  whirlpoolDecode,
+  base64Decode,
+  md6,
+  crc32,
+  crc32c
+} from '../dist';
+
 test('hasher SHA-1', async () => {
   const result = await sha1('test');
   expect(result).toBe('a94a8fe5ccb19ba61c4c0873d391e987982fbbd3');
@@ -34,6 +60,11 @@ test('hasher base64', async () => {
   expect(result).toBe('dGVzdA==');
 });
 
+test('hasher base64 decode', async () => {
+  const result = await base64Decode('dGVzdA==');
+  expect(result).toBe('test');
+});
+
 test('hasher md5', async () => {
   const result = await md5('test');
   expect(result).toBe('098f6bcd4621d373cade4e832627b4f6');
@@ -63,6 +94,11 @@ test('hasher bcrypt compare false', async () => {
 
 test('hasher whirlpool', async () => {
   const result = await whirlpool('test');
+  expect(result).toBe('QjkxM0Q1QkJCOEU0NjFDMkM1OTYxQ0JFMEVEQ0RBREZEMjlGMDY4MjI1Q0VCMzdEQTZERUZDRjg5ODQ5MzY4RjhDNkMyRUI2QTRDNEFDNzU3NzVEMDMyQTBFQ0ZERkU4NTUwNTczMDYyQjY1M0ZFOTJGQzdCOEZCM0I3QkU4RDY=');
+});
+
+test('hasher whirlpool decode', async () => {
+  const result = await whirlpoolDecode('QjkxM0Q1QkJCOEU0NjFDMkM1OTYxQ0JFMEVEQ0RBREZEMjlGMDY4MjI1Q0VCMzdEQTZERUZDRjg5ODQ5MzY4RjhDNkMyRUI2QTRDNEFDNzU3NzVEMDMyQTBFQ0ZERkU4NTUwNTczMDYyQjY1M0ZFOTJGQzdCOEZCM0I3QkU4RDY=');
   expect(result).toBe('B913D5BBB8E461C2C5961CBE0EDCDADFD29F068225CEB37DA6DEFCF89849368F8C6C2EB6A4C4AC75775D032A0ECFDFE8550573062B653FE92FC7B8FB3B7BE8D6');
 });
 
@@ -86,7 +122,6 @@ test('hasher sha3_512', async () => {
   expect(result).toBe('9ece086e9bac491fac5c1d1046ca11d737b92a2b2ebd93f005d7b710110c0a678288166e7fbe796883a4f2e9b3ca9f484f521d0ce464345cc1aec96779149c14');
 });
 
-
 test('hasher keccak512', async () => {
   const result = await keccak512('test');
   expect(result).toBe('1e2e9fc2002b002d75198b7503210c05a1baac4560916a3c6d93bcce3a50d7f00fd395bf1647b9abb8d1afcc9c76c289b0c9383ba386a956da4b38934417789e');
@@ -105,4 +140,19 @@ test('hasher keccak256', async () => {
 test('hasher keccak224', async () => {
   const result = await keccak224('test');
   expect(result).toBe('3be30a9ff64f34a5861116c5198987ad780165f8366e67aff4760b5e');
+});
+
+test('hasher md6', async () => {
+  const result = await md6('test');
+  expect(result).toBe('93c8a7d0ff132f325138a82b2baa98c12a7c9ac982feb6c5b310a1ca713615bd');
+});
+
+test('hasher crc32', async () => {
+  const result = await crc32('test');
+  expect(result).toBe(3632233996);
+});
+
+test('hasher crc32c', async () => {
+  const result = await crc32c('test');
+  expect(result).toBe(2258662080);
 });

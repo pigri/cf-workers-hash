@@ -1,4 +1,26 @@
-import { sha1, sha256, sha384, sha512, base64, md5, xxhash64, xxhash32, bcrypt, whirlpool, sha3_512, sha3_224, sha3_256, sha3_384, keccak512, keccak384, keccak256, keccak224 } from '../../dist';
+import {
+  sha1,
+  sha256,
+  sha384,
+  sha512,
+  base64,
+  md5,
+  xxhash64,
+  xxhash32,
+  bcrypt,
+  whirlpool,
+  sha3_512,
+  sha3_224,
+  sha3_256,
+  sha3_384,
+  keccak512,
+  keccak384,
+  keccak256,
+  keccak224,
+  md6,
+  crc32,
+  crc32c
+} from '../../dist';
 
 export default {
   async fetch(_: Request) {
@@ -21,6 +43,9 @@ export default {
     const hashKeccak384 = await keccak384(testString);
     const hashKeccak256 = await keccak256(testString);
     const hashKeccak224 = await keccak224(testString);
+    const hashMd6 = await md6(testString);
+    const hashCrc32 = await crc32(testString);
+    const hashCrc32c = await crc32c(testString);
 
     const data = {
       testString,
@@ -41,7 +66,10 @@ export default {
       hashKeccak512,
       hashKeccak384,
       hashKeccak256,
-      hashKeccak224
+      hashKeccak224,
+      hashMd6,
+      hashCrc32,
+      hashCrc32c
     };
 
     return Response.json(data);

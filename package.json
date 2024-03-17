@@ -1,6 +1,6 @@
 {
   "name": "cf-workers-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple hash function for Cloudflare Workers",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -22,10 +22,14 @@
     "cloudflare",
     "hash",
     "crypto",
-    "cf"
+    "cf",
+    "workers",
+    "cf-workers",
+    "cloudflare-workers"
   ],
   "devDependencies": {
     "@cloudflare/workers-types": "4.20240314.0",
+    "@swc/core": "1.4.8",
     "@types/bcryptjs": "2.4.6",
     "@types/jest": "29.5.12",
     "@types/node": "20.11.28",
@@ -52,9 +56,12 @@
   },
   "homepage": "https://github.com/pigri/cf-workers-hash#readme",
   "dependencies": {
+    "@aws-crypto/crc32": "5.2.0",
+    "@aws-crypto/crc32c": "5.2.0",
     "bcryptjs": "2.4.3",
     "js-md5": "0.8.3",
     "js-sha3": "0.9.3",
+    "md6-hash": "1.0.0",
     "whirlpool-hash": "1.1.6",
     "xxhashjs": "0.2.2"
   }

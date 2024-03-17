@@ -1,4 +1,4 @@
-name: Sync service prod
+name: Test and Build
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm run build
-      - run: NODE_ENV=test pnpm test
+      - run: pnpm test
