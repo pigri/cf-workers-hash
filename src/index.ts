@@ -1,7 +1,6 @@
 /* @typescript-eslint/no-unused-functions */
 
 import * as bcryptjs from 'bcryptjs';
-import * as md5js from 'js-md5';
 import * as xxh from 'xxhashjs';
 import * as whirlpooljs from 'whirlpool-hash';
 import * as sha3 from 'js-sha3';
@@ -19,10 +18,6 @@ function cryptoHasher(hashType: string) {
   };
 }
 
-export function md5(input: string): Promise<string> {
-  return Promise.resolve(md5js.md5(input));
-}
-
 export function base64(input: string): Promise<string> {
   return Promise.resolve(btoa(input));
 }
@@ -35,6 +30,7 @@ export const sha1 = cryptoHasher('SHA-1');
 export const sha256 = cryptoHasher('SHA-256');
 export const sha384 = cryptoHasher('SHA-384');
 export const sha512 = cryptoHasher('SHA-512');
+export const md5 = cryptoHasher('MD5');
 
 export async function bcrypt(input: string, saltRounds: number): Promise<string> {
   const salt = await bcryptjs.genSalt(saltRounds);

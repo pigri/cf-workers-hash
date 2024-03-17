@@ -1,6 +1,6 @@
 {
   "name": "cf-workers-hash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple hash function for Cloudflare Workers",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -59,7 +59,6 @@
     "@aws-crypto/crc32": "5.2.0",
     "@aws-crypto/crc32c": "5.2.0",
     "bcryptjs": "2.4.3",
-    "js-md5": "0.8.3",
     "js-sha3": "0.9.3",
     "md6-hash": "1.0.0",
     "whirlpool-hash": "1.1.6",
