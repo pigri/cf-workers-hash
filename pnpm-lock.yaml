@@ -9,20 +9,14 @@ importers:
   .:
     dependencies:
       '@aws-crypto/crc32':
-        specifier: ^5.2.0
+        specifier: 5.2.0
         version: 5.2.0
       '@aws-crypto/crc32c':
-        specifier: ^5.2.0
+        specifier: 5.2.0
         version: 5.2.0
       bcryptjs:
         specifier: 2.4.3
         version: 2.4.3
-      crc-32:
-        specifier: 1.2.2
-        version: 1.2.2
-      js-crc:
-        specifier: ^0.2.0
-        version: 0.2.0
       js-md5:
         specifier: 0.8.3
         version: 0.8.3
@@ -2304,12 +2298,6 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /crc-32@1.2.2:
-    resolution: {integrity: sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==}
-    engines: {node: '>=0.8'}
-    hasBin: true
-    dev: false
-
   /create-jest@29.7.0(@types/node@20.11.28):
     resolution: {integrity: sha512-Adz2bdH0Vq3F53KEMJOoftQFutWCukm6J24wbPWRO4k1kMY7gS7ds/uoJkNuV8wDCtWWnuwGcJwpWcih+zEW1Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -3554,10 +3542,6 @@ packages:
     resolution: {integrity: sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==}
     engines: {node: '>=10'}
     dev: true
-
-  /js-crc@0.2.0:
-    resolution: {integrity: sha512-8DdCSAOACpF8WDAjyDFBC2rj8OS4HUP9mNZBDfl8jCiPCnJG+2bkuycalxwZh6heFy6PrMvoWTp47lp6gzT65A==}
-    dev: false
 
   /js-md5@0.8.3:
     resolution: {integrity: sha512-qR0HB5uP6wCuRMrWPTrkMaev7MJZwJuuw4fnwAzRgP4J4/F8RwtodOKpGp4XpqsLBFzzgqIO42efFAyz2Et6KQ==}
