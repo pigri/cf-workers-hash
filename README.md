@@ -8,11 +8,11 @@
 
 ### What is this?
 This is a simple hash function library for Cloudflare Workers. It supports the following hash functions:
-- SHA-1
-- SHA-256
-- SHA-384
-- SHA-512
-- MD5
+- SHA-1 [WEBCRYPTO SUPPORTED](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
+- SHA-256 [WEBCRYPTO SUPPORTED](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
+- SHA-384 [WEBCRYPTO SUPPORTED](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
+- SHA-512 [WEBCRYPTO SUPPORTED](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
+- MD5 [WEBCRYPTO SUPPORTED](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/)
 - BASE64 / BASE64-DECODE
 - XXHASH32
 - XXHASH64
