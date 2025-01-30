@@ -32,7 +32,7 @@
     "@swc/core": "1.10.11",
     "@types/bcryptjs": "2.4.6",
     "@types/jest": "29.5.14",
-    "@types/node": "22.10.7",
+    "@types/node": "22.12.0",
     "@types/xxhashjs": "0.2.4",
     "eslint-config-prettier": "10.0.1",
     "eslint-plugin-prettier": "5.2.3",
