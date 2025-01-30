@@ -28,7 +28,7 @@
     "cloudflare-workers"
   ],
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250121.0",
+    "@cloudflare/workers-types": "4.20250129.0",
     "@swc/core": "1.10.12",
     "@types/bcryptjs": "2.4.6",
     "@types/jest": "29.5.14",
