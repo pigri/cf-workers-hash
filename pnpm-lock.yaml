@@ -15,8 +15,8 @@ importers:
         specifier: 5.2.0
         version: 5.2.0
       bcryptjs:
-        specifier: 2.4.3
-        version: 2.4.3
+        specifier: 3.0.2
+        version: 3.0.2
       js-sha3:
         specifier: 0.9.3
         version: 0.9.3
@@ -1262,8 +1262,9 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  bcryptjs@2.4.3:
-    resolution: {integrity: sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==}
+  bcryptjs@3.0.2:
+    resolution: {integrity: sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==}
+    hasBin: true
 
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
@@ -3936,7 +3937,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bcryptjs@2.4.3: {}
+  bcryptjs@3.0.2: {}
 
   blake3-wasm@2.1.5: {}
 
