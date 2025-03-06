@@ -10,7 +10,7 @@
     "eslint-plugin-prettier": "5.2.3",
     "pnpm": "latest",
     "prettier": "3.5.3",
-    "typescript": "5.7.3",
+    "typescript": "5.8.2",
     "wrangler": "3.113.0"
   },
   "engines": {
