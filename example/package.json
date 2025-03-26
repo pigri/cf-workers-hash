@@ -11,7 +11,7 @@
     "pnpm": "latest",
     "prettier": "3.5.3",
     "typescript": "5.8.2",
-    "wrangler": "4.4.0"
+    "wrangler": "4.4.1"
   },
   "engines": {
     "node": ">=18",
