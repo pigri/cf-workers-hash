@@ -12,8 +12,8 @@ importers:
         specifier: 4.20250312.0
         version: 4.20250312.0
       '@types/node':
-        specifier: 22.13.10
-        version: 22.13.10
+        specifier: 22.13.13
+        version: 22.13.13
       eslint-config-prettier:
         specifier: 10.0.2
         version: 10.0.2(eslint@8.57.0)
@@ -22,7 +22,7 @@ importers:
         version: 5.2.3(eslint-config-prettier@10.0.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
       pnpm:
         specifier: latest
-        version: 10.6.3
+        version: 10.6.5
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -408,8 +408,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@types/node@22.13.10':
-    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
+  '@types/node@22.13.13':
+    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
@@ -773,8 +773,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pnpm@10.6.3:
-    resolution: {integrity: sha512-u0XjTVCpp26FipWDcwG/tr1tNa6ixdUglPpJekZ8Q/XEQBA84lEengovicPWBxuqwzWPxorG+3XizrPSc2Bl5g==}
+  pnpm@10.6.5:
+    resolution: {integrity: sha512-zfko/KIIMs1Z7FOCZJK33CXcUk1DcLa0rb9lgD0y76psHIgUfArk6NV5psnuxxV1e1DU+jXuoXnYaOraTtBDrw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1194,7 +1194,7 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@types/node@22.13.10':
+  '@types/node@22.13.13':
     dependencies:
       undici-types: 6.20.0
 
@@ -1585,7 +1585,7 @@ snapshots:
 
   pathe@2.0.3: {}
 
-  pnpm@10.6.3: {}
+  pnpm@10.6.5: {}
 
   prelude-ls@1.2.1: {}
 
