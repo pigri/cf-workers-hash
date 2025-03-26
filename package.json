@@ -30,7 +30,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250312.0",
     "@swc/core": "1.11.13",
-    "@types/bcryptjs": "2.4.6",
+    "@types/bcryptjs": "3.0.0",
     "@types/jest": "29.5.14",
     "@types/node": "22.13.13",
     "@types/xxhashjs": "0.2.4",
