@@ -22,13 +22,13 @@ importers:
         version: 5.2.5(eslint-config-prettier@10.1.2(eslint@8.57.0))(eslint@8.57.0)(prettier@3.5.3)
       pnpm:
         specifier: latest
-        version: 10.8.0
+        version: 10.10.0
       prettier:
         specifier: 3.5.3
         version: 3.5.3
       typescript:
-        specifier: 5.8.2
-        version: 5.8.2
+        specifier: 5.8.3
+        version: 5.8.3
       wrangler:
         specifier: 4.4.1
         version: 4.4.1(@cloudflare/workers-types@4.20250321.0)
@@ -773,8 +773,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pnpm@10.8.0:
-    resolution: {integrity: sha512-DoJxTRtbQ8dGEBk8sgc0iXwdAN6J0OGEIK68WXf6E9eAqcsFc0Yk6B69gcyHbNRkeUhQZBxIuVRDJrViLKKZcQ==}
+  pnpm@10.10.0:
+    resolution: {integrity: sha512-1hXbJG/nDyXc/qbY1z3ueCziPiJF48T2+Igkn7VoFJMYY33Kc8LFyO8qTKDVZX+5VnGIv6tH9WbR7mzph4FcOQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -878,8 +878,8 @@ packages:
     resolution: {integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==}
     engines: {node: '>=10'}
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1585,7 +1585,7 @@ snapshots:
 
   pathe@2.0.3: {}
 
-  pnpm@10.8.0: {}
+  pnpm@10.10.0: {}
 
   prelude-ls@1.2.1: {}
 
@@ -1688,7 +1688,7 @@ snapshots:
 
   type-fest@0.20.2: {}
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   ufo@1.5.4: {}
 
