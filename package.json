@@ -41,7 +41,7 @@
     "pnpm": "latest",
     "prettier": "3.5.3",
     "ts-jest": "29.3.2",
-    "tsup": "8.4.0",
+    "tsup": "8.5.0",
     "typescript": "5.8.3",
     "wrangler": "4.14.1"
   },
