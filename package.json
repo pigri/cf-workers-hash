@@ -31,7 +31,7 @@
     "@cloudflare/workers-types": "4.20250614.0",
     "@swc/core": "1.12.1",
     "@types/bcryptjs": "3.0.0",
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/node": "22.15.31",
     "@types/xxhashjs": "0.2.4",
     "eslint-config-prettier": "10.1.5",
