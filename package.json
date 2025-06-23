@@ -39,7 +39,7 @@
     "jest": "30.0.0",
     "jest-environment-miniflare": "2.14.4",
     "pnpm": "latest",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "ts-jest": "29.4.0",
     "tsup": "8.5.0",
     "typescript": "5.8.3",
