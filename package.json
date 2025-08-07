@@ -35,7 +35,7 @@
     "@types/node": "22.17.0",
     "@types/xxhashjs": "0.2.4",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-prettier": "5.5.3",
+    "eslint-plugin-prettier": "5.5.4",
     "jest": "30.0.5",
     "jest-environment-miniflare": "2.14.4",
     "pnpm": "latest",
