@@ -43,7 +43,7 @@
     "ts-jest": "29.4.5",
     "tsup": "8.5.0",
     "typescript": "5.9.3",
-    "wrangler": "4.45.1"
+    "wrangler": "4.45.3"
   },
   "engines": {
     "node": ">=18",
