@@ -15,8 +15,8 @@ importers:
         specifier: 5.2.0
         version: 5.2.0
       bcryptjs:
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 3.0.3
+        version: 3.0.3
       js-sha3:
         specifier: 0.9.3
         version: 0.9.3
@@ -1495,8 +1495,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  bcryptjs@3.0.2:
-    resolution: {integrity: sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==}
+  bcryptjs@3.0.3:
+    resolution: {integrity: sha512-GlF5wPWnSa/X5LKM1o0wz0suXIINz1iHRLvTS+sLyi7XPbe5ycmYI3DlZqVGZZtDgl4DmasFg7gOB3JYbphV5g==}
     hasBin: true
 
   blake3-wasm@2.1.5:
@@ -4147,7 +4147,7 @@ snapshots:
 
   '@types/bcryptjs@3.0.0':
     dependencies:
-      bcryptjs: 3.0.2
+      bcryptjs: 3.0.3
 
   '@types/better-sqlite3@7.6.9':
     dependencies:
@@ -4353,7 +4353,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bcryptjs@3.0.2: {}
+  bcryptjs@3.0.3: {}
 
   blake3-wasm@2.1.5: {}
 
