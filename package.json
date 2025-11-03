@@ -58,7 +58,7 @@
   "dependencies": {
     "@aws-crypto/crc32": "5.2.0",
     "@aws-crypto/crc32c": "5.2.0",
-    "bcryptjs": "3.0.2",
+    "bcryptjs": "3.0.3",
     "js-sha3": "0.9.3",
     "md6-hash": "1.0.0",
     "whirlpool-hash": "1.1.6",
