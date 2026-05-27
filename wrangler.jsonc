@@ -1,0 +1,5 @@
+{
+  "name": "cf-workers-hash-tests",
+  "compatibility_date": "2026-05-27",
+  "compatibility_flags": ["nodejs_compat"]
+}
