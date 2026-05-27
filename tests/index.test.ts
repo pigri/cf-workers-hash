@@ -1,3 +1,4 @@
+import { test, expect } from 'vitest';
 import {
   sha1,
   sha256,
@@ -73,14 +74,14 @@ test('hasher md5', async () => {
 test('hasher bcrypt', async () => {
   const result = await bcrypt('test', 5);
   expect(result).toBeTruthy();
-  expect(result).toContain("$2a$05$")
+  expect(result).toContain("$2b$05$")
 });
 
 test('hasher bcrypt compare', async () => {
   const result = await bcrypt('test', 5);
   const compare = await bcryptCompare('test', result);
   expect(result).toBeTruthy();
-  expect(result).toContain("$2a$05$")
+  expect(result).toContain("$2b$05$")
   expect(compare).toBe(true)
 });
 
@@ -88,7 +89,7 @@ test('hasher bcrypt compare false', async () => {
   const result = await bcrypt('test', 5);
   const compare = await bcryptCompare('test123', result);
   expect(result).toBeTruthy();
-  expect(result).toContain("$2a$05$")
+  expect(result).toContain("$2b$05$")
   expect(compare).toBe(false)
 });
 
