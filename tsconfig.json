@@ -3,6 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
     "outDir": "./lib",
     "strict": true,
     "noImplicitAny": true,
@@ -19,7 +20,7 @@
     "isolatedModules": true,
     "lib": ["esnext", "WebWorker"],
     "rootDirs": ["./src", "./types"],
-    "types": ["@cloudflare/workers-types","jest", "node"],
+    "types": ["@cloudflare/workers-types", "@cloudflare/vitest-pool-workers", "node"],
     "esModuleInterop": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "tests/**/*.ts"],
