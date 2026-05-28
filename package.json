@@ -29,7 +29,7 @@
   ],
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.16.10",
-    "@cloudflare/workers-types": "4.20260526.1",
+    "@cloudflare/workers-types": "4.20260528.1",
     "@swc/core": "1.15.40",
     "@types/node": "25.9.1",
     "@types/xxhashjs": "0.2.4",
