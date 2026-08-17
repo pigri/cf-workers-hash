@@ -31,7 +31,7 @@
     "@cloudflare/vitest-pool-workers": "0.21.3",
     "@cloudflare/workers-types": "4.20260629.1",
     "@swc/core": "1.15.43",
-    "@types/node": "25.9.4",
+    "@types/node": "25.9.5",
     "@types/xxhashjs": "0.2.4",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.6",
