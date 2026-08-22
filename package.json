@@ -30,7 +30,7 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.21.3",
     "@cloudflare/workers-types": "5.20260817.1",
-    "@swc/core": "1.16.0",
+    "@swc/core": "1.16.1",
     "@types/node": "25.9.5",
     "@types/xxhashjs": "0.2.4",
     "eslint-config-prettier": "10.1.8",
